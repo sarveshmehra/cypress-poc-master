@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://web.qa.aws.blue.bisnode.net/angular-with-jest/",
+  "viewportWidth": 1000,
+  "viewportHeight": 1000,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/smoke-test-results.xml",
+    "toConsole": false
+  }
+}

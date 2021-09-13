@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://web.dev.aws.blue.bisnode.net/angular-with-jest",
+  "env": {
+    "description": "This is DEV environment!",
+    "username": "thisIsAUsername",
+    "password": "thisIsAPassword"
+  }
+}

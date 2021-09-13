@@ -1,0 +1,16 @@
+version: '3.2'
+
+services:
+  cypress:
+    image: cypress
+    container_name: cypress
+    links:
+      - infotorgv3fend.bisnode.net
+    depends_on:
+      - in fotorgv3fend.bisnode.net
+    network_mode: "bridge"
+    environment:
+      - CYPRESS_baseUrl=http://infotorgv3fend.bisnode.net:4200
+    command: npm run cypress:docker
+
+

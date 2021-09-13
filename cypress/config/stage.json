@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://web.stage.aws.blue.bisnode.net/angular-with-jest",
+  "env": {
+    "description": "This is STAGE environment!",
+    "username": "",
+    "password": ""
+  }
+}

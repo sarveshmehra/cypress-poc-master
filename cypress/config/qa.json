@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://web.qa.aws.blue.bisnode.net/angular-with-jest",
+  "env": {
+    "description": "This is QA environment!",
+    "username": "thisIsAUsername",
+    "password": "thisIsAPassword"
+  }
+}
